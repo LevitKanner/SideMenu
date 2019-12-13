@@ -39,7 +39,7 @@ struct ContentView: View {
                 .navigationBarItems(leading:
                     Image(systemName: "line.horizontal.3")
                         .imageScale(.large)
-                        .foregroundColor(self.showSideMenu ? .white : .black)
+                        .foregroundColor(self.showSideMenu ? .gray : .black)
                         .onTapGesture {
                             withAnimation {
                                 self.showSideMenu.toggle()
