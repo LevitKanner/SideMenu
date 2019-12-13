@@ -44,7 +44,7 @@ struct MenuView: View {
             
             Spacer()
             
-            Text("copyright© 2019")
+            Text("copyright© 2019 | Levit Kanner")
                 .font(.custom("AvenirNext-Regular", size: 12))
                 .foregroundColor(.gray)
         }
